@@ -1,0 +1,21 @@
+.errorMsg {
+  text-align: center;
+  h2 {
+    padding: 1rem;
+  }
+  p {
+    padding: 5px 0 10px 0;
+  }
+}
+.staffWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.sectionWrapper {
+  margin: 2rem auto;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}

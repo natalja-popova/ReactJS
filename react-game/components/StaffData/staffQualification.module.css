@@ -1,0 +1,9 @@
+.qualificationsWrapper {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+}
+.qualificationsWrapper .qualificationIco {
+  width: 40px;
+  height: 40px;
+}

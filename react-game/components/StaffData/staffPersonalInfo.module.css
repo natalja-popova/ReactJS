@@ -1,0 +1,25 @@
+.personalInfo {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+.personalInfo img {
+  width: 100px;
+  height: 100px;
+}
+
+.personalInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+}
+.personalInfo ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  align-self: center;
+  gap: 8px;
+  max-width: 200px;
+}

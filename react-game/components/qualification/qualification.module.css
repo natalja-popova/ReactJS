@@ -1,0 +1,27 @@
+.qualificationsWrapper {
+  display: flex;
+  gap: 2rem;
+  padding: 10px 0;
+}
+.qualification {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.qualification img {
+  cursor: pointer;
+}
+.contentWrapper {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.cantPurchase {
+  background-color: rgba(246, 170, 54, 0.5);
+}
+
+.canPurchase {
+  background-color: rgba(22, 167, 198, 0.4);
+}
