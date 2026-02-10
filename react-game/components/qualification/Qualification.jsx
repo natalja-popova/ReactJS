@@ -20,7 +20,11 @@ const Qualification = ({ userQualification, onBuy, availableAmount }) => {
     <div
       className={`${style.contentWrapper} ${!cannotAffordAny ? style.canPurchase : style.cantPurchase}`}
     >
-      <h3>Upgrades You Can Purchase</h3>
+      <h3>
+        Upgrades You Can Purchase
+        <br />
+        <span className={style.note}>(please click on icon to purchase)</span>
+      </h3>
       <div className={style.qualificationsWrapper}>
         {availableQualifications.map((q) => {
           const hasQualification = userQualification.some(

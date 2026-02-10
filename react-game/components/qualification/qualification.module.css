@@ -25,3 +25,7 @@
 .canPurchase {
   background-color: rgba(22, 167, 198, 0.4);
 }
+.note {
+  font-weight: normal;
+  font-size: 14px;
+}

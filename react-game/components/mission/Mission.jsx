@@ -41,9 +41,7 @@ const Mission = ({ onCompleteMission }) => {
           ? activeMissions.map((m) => {
               return (
                 <div key={m.id} className={style.mission}>
-                  <p>
-                    {m.mission} {String(m.isCompleted)}
-                  </p>
+                  <p>{m.mission}</p>
                   <p>
                     <span>Reward:</span> $ {m.price}
                   </p>
