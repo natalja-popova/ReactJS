@@ -1,6 +1,6 @@
 .qualificationsWrapper {
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .qualificationsWrapper .qualificationIco {
